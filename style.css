@@ -173,7 +173,7 @@ textarea {
 
 .btn-primary {
     background-color: #be3144 !important;
-    border: 1px solid #333333 !important;
+    border: 0px solid #333333 !important;
     width: 80% !important;
     font-weight: 700 !important;
     letter-spacing: 1px;
@@ -184,6 +184,32 @@ textarea {
 .btn-primary:hover {
     background-color: #333333 !important;
 }
+
+footer h4 {
+    padding-top: 50px;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer img {
+    margin: 20px;
+    width: 75px;
+}
+
+#redes {
+    text-align: center;
+}
+
+#redes a img {
+    filter: hue-rotate(340deg) brightness(1.2) saturate(1.5) sepia(1) invert(0.3);
+}
+
+#redes a img:hover {
+    filter: hue-rotate(340deg) brightness(1.2) saturate(1.5) sepia(1) invert(0);
+}
+
+
 
 @keyframes slideDown {
     
