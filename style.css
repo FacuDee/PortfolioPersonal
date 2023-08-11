@@ -160,7 +160,8 @@ textarea {
 }
 
 #copy {
-    margin: 20px;
+    margin: 30px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
