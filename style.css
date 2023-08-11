@@ -153,12 +153,16 @@ form input {
     margin: 10px;
     width: 300px;
     background-color: white;
+    color: #be3144;
+    font-weight: 900;
 }
 
 textarea {
     resize: none;
     margin: 10px;
     background-color: white;
+    color: #be3144;
+    font-weight: 900;
 }
 
 #copy {
