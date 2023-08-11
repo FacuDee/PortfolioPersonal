@@ -110,6 +110,11 @@ body {
     background-color: #333333;
 }
 
+.franjaRoja {
+    background-color: #be3144;
+    height: 20px;
+}
+
 section h2 {
     margin-top: 50px;
     margin-bottom: 50px;
