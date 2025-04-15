@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Russo+One&display=swap');
 
-html,
 body {
     margin: 0;
+    font-family: Montserrat;
+}
+
+.sectionTitle {
+    margin: 2rem;
 }
 
 #navbar {
@@ -144,6 +148,35 @@ textarea {
     font-weight: 900;
 }
 
+.error-message {
+    color: #ff0000;
+    font-size: 0.8em;
+    display: none;
+}
+  
+input:valid, textarea:valid {
+    border-color: #00ff00;
+}
+  
+#form-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+  
+#form-message.success {
+    background-color: #d4edda;
+    color: #155724;
+    display: block;
+}
+  
+#form-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    display: block;
+}
+
 
 /* Media query */
 
@@ -168,7 +201,19 @@ textarea {
     .project-title {
         font-size: 3.75rem;
     }
+}
 
+#submitBtn {
+    margin-top: 2rem;
+    padding: 10px;
+    background-color: #be3144;
+    color: white;
+    border: none;
+}
+
+
+#submitBtn:hover {
+    background-color: #d34457;
 }
 
 @media (max-width: 600px) {
