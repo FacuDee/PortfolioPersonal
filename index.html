@@ -1,158 +1,504 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+  <!-- Cambiado a español -->
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./styles.css" />
-  <title>FacuDee | Porfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="./imgs/favicon-16x16.png" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facundo Diorio | Desarrollador Full Stack</title>
+    <meta
+      name="description"
+      content="Portfolio de Facundo Diorio, Desarrollador Web Full Stack"
+    />
+    <link
+      rel="shortcut icon"
+      href="./imgs/favicon-16x16.png"
+      type="image/x-icon"
+    />
 
-<body>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
 
-  <nav id="navbar">
-    <a href="#projects">Proyectos</a>
-    <a href="#aboutMe">Sobre mí</a>
-    <a href="#contact">Contacto</a>
-  </nav>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
 
-  <section id="welcome-section">
-    <div><img class="fotoPersonal" src="./imgs/fotito.jpg" alt="fotoPersonal"></div>
-    <a href="./CV-Facundo-Diorio.pdf" download class="btn btn-primary mb-4">
-      Descargar CV (PDF)
-    </a>
-    <h1 class="project-title">Hola! Soy FacuDee</h1>
-    <p class="web-developer">&lt; Desarrollador Web Full Stack &gt;</p>
-  </section>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <div class="franjaNegra"></div>
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-  <section id="projects">
-
-    <h2 class="sectionTitle">ALGUNOS DE MIS PROYECTOS<h2>
-        <hr>
-
-        <div id="grid">
-
-          <div class="card" style="width: 18rem;">
-            <img src="./imgs/captura-ironfit.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">IronFit WebSite</h5>
-              <hr>
-              <p class="card-text">Página web - Entrenamiento Personalizado & Coaching Deportivo</p>
-              <a href="https://facudee.github.io/ironfit-website/" class="btn btn-danger" target="_blank">Visitar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="./imgs/tiendaProject.PNG" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Gestión de clientes</h5>
-              <hr>
-              <p class="card-text">CRUD clientes de una tienda electrónica. Conexión a Base de datos</p>
-              <a href="#" class="btn btn-danger" target="_blank">Visitar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="./imgs/captura-huerta.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Huerta EnCasa</h5>
-              <hr>
-              <p class="card-text">Frontend | Sitio Web informativo sobre Huertas Domésticas</p>
-              <a href="https://facudee.github.io/huertaEnCasa/" class="btn btn-danger" target="_blank">Visitar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="./imgs/english.PNG" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Test English</h5>
-              <hr>
-              <p class="card-text">Trivia sobre inglés. Opciones en arreglos dentro de JS</p>
-              <a href="https://facudee.github.io/testEnglish/" class="btn btn-danger" target="_blank">Visitar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="./imgs/lucha.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">"Lucha de clases"</h5>
-              <hr>
-              <p class="card-text">Práctica de bifurcaciones de archivos html. Aventura didáctica</p>
-              <a href="https://lucha-de-clases.vercel.app/" class="btn btn-danger" target="_blank">Visitar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="./imgs/paso2023.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Resultados elecciones</h5>
-              <hr>
-              <p class="card-text">Práctica de CSS y uso de GRID para hacer responsive</p>
-              <a href="https://paso-2023.vercel.app/" class="btn btn-danger" target="_blank">Visitar</a>
-            </div>
-          </div>
-          
+  <body>
+    <!-- Navbar mejorado -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Facundo Diorio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
         </div>
-  </section>
+      </div>
+    </nav>
 
-  <div class="franjaNegra"></div>
+    <!-- Hero Section mejorada -->
+    <header class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-img-container">
+            <img
+              class="hero-img"
+              src="./imgs/fotito.jpg"
+              alt="Facundo Diorio"
+            />
+          </div>
+          <div class="hero-text">
+            <h1>Hola, soy <span>FacuDee</span></h1>
+            <h2>&lt;Desarrollador Web Full Stack&gt;</h2>
+            <p class="hero-description">
+              Creando soluciones digitales con código limpio y diseño eficiente
+            </p>
+            <div class="hero-buttons">
+              <a href="./CV-Facundo-Diorio.pdf" download class="btn btn-cv">
+                <i class="bi bi-download"></i> Descargar CV
+              </a>
+              <a href="#contact" class="btn btn-contact">
+                <i class="bi bi-envelope"></i> Contactame
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a href="#projects"><i class="bi bi-chevron-down"></i></a>
+      </div>
+    </header>
 
-  <section id="aboutMe">
-    <h2 class="sectionTitle">SOBRE MÍ</h2>
-    <hr class="mt-5 mb-4">
-    <p>Conocimientos: <br><br>
-      <span class="datos">Frontend: HTML5, CSS3, JavaScript (ES6+), Responsive Design</span><br><br>
-      <span class="datos">Backend: Node.js</span><br><br>
-      <span class="datos">Bases de datos: SQL (MySQL, PostgreSQL) NoSQL (MongoDB)</span><br><br>
-      <span class="datos">Herramientas: Git/GitHub, VS Code</span><br><br>
-      <span class="datos">Extras: POO, APIs REST</span>
-    </p>
-    <hr class="mt-5 mb-4">
-    <P>Nombre completo: <span class="datos">Facundo Diorio</span></P>
-    <p>Fecha de nacimiento: <span class="datos">17-mayo-1989</span></p>
-    <P>Email: <span class="datos">facudiorio@hotmail.com</span></P>
-    <P>Teléfono: <span class="datos">(+54) 9 221-5474107</span></P>
-    <p>Ciudad: <span class="datos">Olavarría, pcia. de Bs. As.</span></p>
-    <p>Otra formación: <span class="datos">Comunicación Social</span></p>
-  </section>
+    <!-- Sección de Proyectos mejorada -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Mis Proyectos</h2>
+          <p>Algunos de mis trabajos recientes</p>
+        </div>
 
-  <div class="franjaBlanca"></div>
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="./imgs/captura-ironfit.jpg" alt="IronFit WebSite" />
+              <div class="project-links">
+                <a
+                  href="https://facudee.github.io/ironfit-website/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="bi bi-eye"></i> Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="bi bi-github"></i> Código
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>IronFit WebSite</h3>
+              <p>Entrenamiento Personalizado & Coaching Deportivo</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Firebase</span>
+              </div>
+            </div>
+          </div>
 
-  <section id="contact">
-    <h2 class="sectionTitle">CONTACTAME</h2>
-    <form id="contactForm" action="#" method="POST">
-      <label>Tu nombre: <br>
-        <input type="text" name="nombre" required minlength="2">
-        <span class="error-message" id="nombre-error"></span>
-      </label><br>
-      <label>Tu email: <br>
-        <input type="email" name="email" required>
-        <span class="error-message" id="email-error"></span>
-      </label><br>
-      <label>Asunto: <br>
-        <input type="text" name="asunto" required minlength="5">
-        <span class="error-message" id="asunto-error"></span>
-      </label><br>
-      <label>Tu mensaje: <br>
-        <textarea name="mensaje" rows="8" cols="40" class="mt-2" placeholder="Escribe aquí..." required minlength="10"></textarea>
-        <span class="error-message" id="mensaje-error"></span>
-      </label><br>
-      <button type="submit" id="submitBtn">Enviar Mensaje</button>
-      <div id="form-message"></div>
-    </form>
-</section>
+          <!-- Proyecto 2-->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="./imgs/tiendaProject.PNG" alt="tienda project" />
+              <div class="project-links">
+                <a
+                  href="https://facudee.github.io/clientesTiendaElectronica/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="bi bi-eye"></i> Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="bi bi-github"></i> Código
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Tienda electrónica</h3>
+              <p>Sistema de gestión de clientes. Conexión a Base de datos</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+                <span>MySQL</span>
+              </div>
+            </div>
+          </div>
 
-  <footer>
-    <p id="copy">&copy; 2023 Created by FacuDee. Todos los derechos reservados.</p>
-  </footer>
+          <!-- Proyecto 3-->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="./imgs/captura-huerta.JPG" alt="captura-huerta" />
+              <div class="project-links">
+                <a
+                  href="https://facudee.github.io/huertaEnCasa/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="bi bi-eye"></i> Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="bi bi-github"></i> Código
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Huerta EnCasa</h3>
+              <p>Frontend | Sitio Web informativo sobre Huertas Domésticas</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
 
-<script src="script.js"></script>
-</body>
+          <!-- Proyecto 4-->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="./imgs/english.PNG" alt="test english" />
+              <div class="project-links">
+                <a
+                  href="https://facudee.github.io/testEnglish/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="bi bi-eye"></i> Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="bi bi-github"></i> Código
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Test English</h3>
+              <p>Trivia sobre inglés. Opciones en arreglos dentro de JS</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
 
+          <!-- Proyecto 5-->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="./imgs/lucha.jpg" alt="lucha clases" />
+              <div class="project-links">
+                <a
+                  href="https://lucha-de-clases.vercel.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="bi bi-eye"></i> Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="bi bi-github"></i> Código
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>"Lucha de clases"</h3>
+              <p>
+                Práctica de bifurcaciones de archivos html. Aventura didáctica
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 6-->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="./imgs/paso2023.jpg" alt="resultados paso 2023" />
+              <div class="project-links">
+                <a
+                  href="https://paso-2023.vercel.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="bi bi-eye"></i> Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="bi bi-github"></i> Código
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Resultados elecciones</h3>
+              <p>Práctica de CSS y uso de GRID para hacer responsive</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Sobre Mí mejorada -->
+    <
+    <section id="aboutMe" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Sobre Mí</h2>
+          <p>Conoce más sobre mi experiencia y habilidades</p>
+        </div>
+
+        <div class="about-content">
+          <!-- Tarjeta de Información Personal -->
+          <div class="about-card">
+            <div class="card-header">
+              <i class="bi bi-person-circle"></i>
+              <h3>Información Personal</h3>
+            </div>
+            <div class="card-body">
+              <ul class="info-list">
+                <li>
+                  <i class="bi bi-person"></i> <strong>Nombre:</strong> Facundo
+                  Diorio
+                </li>
+                <li>
+                  <i class="bi bi-calendar"></i>
+                  <strong>Fecha de nacimiento:</strong> 17-mayo-1989
+                </li>
+                <li>
+                  <i class="bi bi-envelope"></i>
+                  <strong>Email:</strong> facu.d.1989@gmail.com
+                </li>
+                <li>
+                  <i class="bi bi-phone"></i> <strong>Teléfono:</strong> (+54) 9
+                  221-5474107
+                </li>
+                <li>
+                  <i class="bi bi-geo-alt"></i>
+                  <strong>Ubicación:</strong> Olavarría, Bs. As.
+                </li>
+                <li>
+                  <i class="bi bi-book"></i>
+                  <strong>Otra formación:</strong> Comunicación Social
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Tarjeta de Habilidades -->
+          <div class="about-card">
+            <div class="card-header">
+              <i class="bi bi-code-slash"></i>
+              <h3>Mis Habilidades</h3>
+            </div>
+            <div class="card-body">
+              <div class="skills-container">
+                <div class="skill-category">
+                  <h4>
+                    <i class="bi bi-layout-text-window-reverse"></i> Frontend
+                  </h4>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsive Design</li>
+                  </ul>
+                </div>
+
+                <div class="skill-category">
+                  <h4><i class="bi bi-server"></i> Backend</h4>
+                  <ul>
+                    <li>Node.js</li>
+                    <li>APIs REST</li>
+                  </ul>
+                </div>
+
+                <div class="skill-category">
+                  <h4><i class="bi bi-database"></i> Bases de Datos</h4>
+                  <ul>
+                    <li>SQL (MySQL, PostgreSQL)</li>
+                    <li>NoSQL (MongoDB)</li>
+                  </ul>
+                </div>
+
+                <div class="skill-category">
+                  <h4><i class="bi bi-tools"></i> Herramientas</h4>
+                  <ul>
+                    <li>Git/GitHub</li>
+                    <li>VS Code</li>
+                    <li>POO</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Contacto mejorada -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contacto</h2>
+          <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+        </div>
+
+        <div class="contact-content">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                name="nombre"
+                placeholder="Tu nombre"
+                required
+              />
+              <span class="error-message" id="nombre-error"></span>
+            </div>
+
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Tu email"
+                required
+              />
+              <span class="error-message" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <input type="text" name="asunto" placeholder="Asunto" required />
+              <span class="error-message" id="asunto-error"></span>
+            </div>
+
+            <div class="form-group">
+              <textarea
+                name="mensaje"
+                placeholder="Tu mensaje"
+                required
+              ></textarea>
+              <span class="error-message" id="mensaje-error"></span>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>Enviar Mensaje</span>
+              <i class="bi bi-send"></i>
+            </button>
+
+            <div id="form-message"></div>
+          </form>
+
+          <div class="contact-info">
+            <h3>Otras formas de contacto</h3>
+            <ul class="contact-methods">
+              <li>
+                <i class="bi bi-envelope"></i>
+                <span>facu.d.1989@gmail.com</span>
+              </li>
+              <li>
+                <i class="bi bi-phone"></i>
+                <span>(+54) 9 221-5474107</span>
+              </li>
+              <li>
+                <i class="bi bi-geo-alt"></i>
+                <span>Olavarría, Buenos Aires, Argentina</span>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+              <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer mejorado -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#">FacuDee</a>
+          </div>
+
+          <div class="footer-links">
+            <a href="#projects">Proyectos</a>
+            <a href="#aboutMe">Sobre mí</a>
+            <a href="#contact">Contacto</a>
+          </div>
+
+          <div class="footer-social">
+            <a href="https://github.com/FacuDee" target="_blank"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/facundo-diorio-22531b32b/"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2023 FacuDee. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botón "Volver arriba" -->
+    <a href="#" class="back-to-top" id="backToTop">
+      <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
