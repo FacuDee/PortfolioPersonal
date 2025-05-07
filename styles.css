@@ -571,6 +571,7 @@ body {
 .contact-methods {
   list-style: none;
   margin-bottom: 2rem;
+  padding: 20px 0;
 }
 
 .contact-methods li {
