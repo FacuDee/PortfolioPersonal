@@ -426,9 +426,11 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.5rem;
+  min-width:min-content;
 }
 
 .skill-category {
+  min-width:min-content;
   background-color: #f8f9fa;
   padding: 1rem;
   border-radius: 8px;
