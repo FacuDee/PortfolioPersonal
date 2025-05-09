@@ -140,6 +140,7 @@ body {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Efecto maquina de escribir h2*/
@@ -154,12 +155,6 @@ body {
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
-}
-
-.web-developer {
-  font-size: 2rem;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .hero-description {
@@ -391,7 +386,7 @@ body {
 }
 
 .about-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
 }
 
@@ -459,7 +454,7 @@ body {
 
 .skill-category:hover {
   background-color: #e9ecef;
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 .skill-category h4 {

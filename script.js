@@ -175,7 +175,7 @@ backToTopButton.addEventListener('click', (e) => {
 // Efecto máquina de escribir
 function typeWriter() {
   const text = "Desarrollador Web Full Stack";
-  const speed = 75; // Velocidad en milisegundos
+  const speed = 60; // Velocidad en milisegundos
   const typedElement = document.getElementById('typed');
   const cursor = document.querySelector('.cursor');
   
