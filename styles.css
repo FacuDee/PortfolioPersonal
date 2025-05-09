@@ -136,7 +136,13 @@ body {
   color: var(--accent-color);
 }
 
-/* Efecto máquina de escribir */
+.hero-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+/* Efecto maquina de escribir h2*/
 .cursor {
   display: inline-block;
   width: 1px;
@@ -152,32 +158,6 @@ body {
 
 .web-developer {
   font-size: 2rem;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.hero-text h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  font-weight: 400;
-}
-
-/* Efecto máquina de escribir del h2*/
-.cursor {
-  display: inline-block;
-  width: 2px;
-  background-color: white;
-  margin-left: 5px;
-  animation: blink 0.7 infinite;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
-.web-developer {
-  font-size: 1.5rem;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
