@@ -171,3 +171,31 @@ backToTopButton.addEventListener('click', (e) => {
     behavior: 'smooth'
   });
 });
+
+// Efecto máquina de escribir
+function typeWriter() {
+  const text = "Desarrollador Web Full Stack";
+  const speed = 75; // Velocidad en milisegundos
+  const typedElement = document.getElementById('typed');
+  const cursor = document.querySelector('.cursor');
+  
+  let i = 0;
+  function typing() {
+    if (i < text.length) {
+      typedElement.textContent += text.charAt(i);
+      i++;
+      setTimeout(typing, speed);
+    } else {
+      // Cuando termina, dejamos el cursor parpadeando
+      cursor.style.animation = 'blink 0.7s infinite';
+    }
+  }
+  
+  // Iniciar animación después de un pequeño retraso
+  setTimeout(typing, 500);
+}
+
+// Ejecutar cuando la página cargue
+window.addEventListener('DOMContentLoaded', (event) => {
+  typeWriter();
+});
