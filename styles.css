@@ -61,6 +61,10 @@ body {
   color: var(--accent-color);
 }
 
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
 .nav-link::after {
   content: "";
   position: absolute;
@@ -668,7 +672,7 @@ body {
 
 .footer-social a {
   color: var(--light-color);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: var(--transition);
 }
 
@@ -680,6 +684,11 @@ body {
   text-align: center;
   padding-top: 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom span {
+  color: var(--accent-color);
+  font-weight: bold;
 }
 
 /* Botón "Volver arriba" */
