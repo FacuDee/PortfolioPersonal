@@ -1,0 +1,180 @@
+.contact-section {
+  background-color: var(--light-color);
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact-form-container {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--box-shadow);
+}
+
+.contact-info {
+  position: sticky;
+  top: 100px;
+}
+
+.contact-info-card {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--box-shadow);
+}
+
+.contact-info h3 {
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+  font-size: 1.4rem;
+}
+
+.contact-info p {
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.contact-methods {
+  list-style: none;
+  margin-bottom: 2.5rem;
+  padding: 0;
+}
+
+.contact-methods li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.contact-methods li:hover {
+  background-color: #e9ecef;
+  transform: translateX(5px);
+}
+
+.contact-methods svg {
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.contact-method-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.method-label {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.method-value {
+  color: var(--text-color);
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.method-value:hover {
+  color: var(--primary-color);
+}
+
+.social-links h4 {
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+  font-size: 1.1rem;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.social-link.github {
+  background-color: #333;
+}
+
+.social-link.github:hover {
+  background-color: #24292e;
+  color: white;
+}
+
+.social-link.linkedin {
+  background-color: #0077b5;
+}
+
+.social-link.linkedin:hover {
+  background-color: #005885;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .contact-info {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-form-container,
+  .contact-info-card {
+    padding: 2rem;
+  }
+  
+  .contact-content {
+    gap: 2rem;
+  }
+  
+  .social-buttons {
+    flex-direction: column;
+  }
+  
+  .social-link {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-container,
+  .contact-info-card {
+    padding: 1.5rem;
+  }
+  
+  .contact-methods li {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .contact-method-info {
+    align-items: flex-start;
+  }
+}

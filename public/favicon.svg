@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#grad)" stroke="#1e40af" stroke-width="2"/>
+  
+  <!-- Portfolio icon - folder/document -->
+  <rect x="25" y="30" width="35" height="25" rx="2" fill="white" opacity="0.9"/>
+  <rect x="30" y="35" width="25" height="2" fill="#2563eb"/>
+  <rect x="30" y="40" width="20" height="2" fill="#2563eb"/>
+  <rect x="30" y="45" width="15" height="2" fill="#2563eb"/>
+  
+  <!-- Code brackets -->
+  <text x="20" y="70" font-family="monospace" font-size="16" font-weight="bold" fill="white">&lt;</text>
+  <text x="72" y="70" font-family="monospace" font-size="16" font-weight="bold" fill="white">/&gt;</text>
+  
+  <!-- Initials -->
+  <text x="50" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">FD</text>
+</svg>
