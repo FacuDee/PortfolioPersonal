@@ -1,10 +1,18 @@
+// Import de imágenes
+import capturaIronfit from '../assets/images/captura-ironfit.jpg';
+import resultadosEncuesta from '../assets/images/resultados-encuesta.PNG';
+import capturaPixelArte from '../assets/images/capturaPixelArte.JPG';
+import tiendaProject from '../assets/images/tiendaProject.PNG';
+import capturaHuerta from '../assets/images/captura-huerta.JPG';
+import english from '../assets/images/english.PNG';
+
 export const projects = [
   {
     id: 1,
     title: "IronFit WebSite",
     description: "Entrenamiento Personalizado & Coaching Deportivo",
     longDescription: "Sitio web completo para un gimnasio con sistema de reservas, planes de entrenamiento personalizados y gestión de clientes. Implementé un backend robusto con Firebase para manejar autenticación y base de datos en tiempo real.",
-    image: "./src/assets/images/captura-ironfit.jpg",
+    image: capturaIronfit,
     technologies: ["HTML", "CSS", "JavaScript", "Firebase"],
     demoUrl: "https://facudee.github.io/ironfit-website/",
     githubUrl: "https://github.com/FacuDee/ironfit-website",
@@ -16,7 +24,7 @@ export const projects = [
     title: "Encuestadora política",
     description: "Relevamiento de respuestas de usuario con Node.js, Express y SQLite",
     longDescription: "Sistema completo para realizar encuestas políticas con análisis de resultados en tiempo real. Incluye panel administrativo, visualización de datos y exportación de reportes.",
-    image: "./src/assets/images/resultados-encuesta.PNG",
+    image: resultadosEncuesta,
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "SQLite"],
     demoUrl: "https://github.com/FacuDee/encuesta-node-sqlite",
     githubUrl: "https://github.com/FacuDee/encuesta-node-sqlite",
@@ -28,7 +36,7 @@ export const projects = [
     title: "Pixel Arte",
     description: "Proyecto web front-end. Página de un estudio de diseño gráfico",
     longDescription: "Portfolio creativo para un estudio de diseño gráfico con galería interactiva, animaciones CSS avanzadas y diseño completamente responsive.",
-    image: "./src/assets/images/capturaPixelArte.JPG",
+    image: capturaPixelArte,
     technologies: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://facudee.github.io/PixelArte/",
     githubUrl: "https://github.com/FacuDee/PixelArte",
@@ -40,7 +48,7 @@ export const projects = [
     title: "Tienda electrónica",
     description: "Sistema de gestión de clientes. Conexión a Base de datos",
     longDescription: "E-commerce completo con carrito de compras, sistema de pagos, gestión de inventario y panel administrativo. Implementado con arquitectura MVC y base de datos MySQL.",
-    image: "./src/assets/images/tiendaProject.PNG",
+    image: tiendaProject,
     technologies: ["HTML", "Bootstrap", "JavaScript", "Node.js", "MySQL"],
     demoUrl: "https://github.com/FacuDee/clientesTiendaElectronica",
     githubUrl: "https://github.com/FacuDee/clientesTiendaElectronica",
@@ -52,7 +60,7 @@ export const projects = [
     title: "Huerta EnCasa",
     description: "Frontend | Sitio Web informativo sobre Huertas Domésticas",
     longDescription: "Sitio web educativo sobre agricultura urbana con calculadora de espacios, calendario de siembra y guías interactivas para principiantes.",
-    image: "./src/assets/images/captura-huerta.JPG",
+    image: capturaHuerta,
     technologies: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://facudee.github.io/huertaEnCasa/",
     githubUrl: "https://github.com/FacuDee/huertaEnCasa",
@@ -64,7 +72,7 @@ export const projects = [
     title: "Test English",
     description: "Trivia sobre inglés. Opciones en arreglos dentro de JS",
     longDescription: "Aplicación interactiva de trivia en inglés con sistema de puntuación, diferentes niveles de dificultad y retroalimentación inmediata para el aprendizaje.",
-    image: "./src/assets/images/english.PNG",
+    image: english,
     technologies: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://facudee.github.io/testEnglish/",
     githubUrl: "https://github.com/FacuDee/testEnglish",

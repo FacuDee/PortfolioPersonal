@@ -1,3 +1,6 @@
+// Import de imagen del perfil
+import profileImage from '../assets/images/fotito.jpg';
+
 export const personalInfo = {
   name: "Facundo Diorio",
   nickname: "FacuDee",
@@ -8,7 +11,7 @@ export const personalInfo = {
   phone: "(+54) 9 221-5474107",
   birthDate: "17-mayo-1989",
   education: "Comunicación Social",
-  profileImage: "./src/assets/images/fotito.jpg",
+  profileImage: profileImage,
   cv: "/CV-Facundo-Diorio.pdf",
   
   bio: "Soluciones digitales con código limpio y diseño eficiente",
