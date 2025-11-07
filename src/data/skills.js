@@ -37,7 +37,7 @@ export const skillCategories = [
     icon: 'Database',
     skills: [
       { name: 'MySQL', level: 90, icon: SiMysql },
-      { name: 'PostgreSQL', level: 75, icon: SiPostgresql },
+      { name: 'PostgreSQL', level: 80, icon: SiPostgresql },
       { name: 'SQLite', level: 70, icon: SiSqlite },
       { name: 'MongoDB', level: 60, icon: SiMongodb }
     ]
@@ -48,9 +48,9 @@ export const skillCategories = [
     icon: 'Wrench',
     skills: [
       { name: 'VS Code', level: 90, icon: FaLaptopCode },  
-      { name: 'Git/GitHub', level: 80, icon: FaGithub },      
-      { name: 'POO', level: 70, icon: FaBullseye },
-      { name: 'Vite', level: 70, icon: SiVite }
+      { name: 'Git/GitHub', level: 90, icon: FaGithub },
+      { name: 'Vite', level: 85, icon: SiVite }, 
+      { name: 'POO', level: 70, icon: FaBullseye }
     ]
   }
 ];

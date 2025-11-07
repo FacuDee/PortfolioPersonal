@@ -91,12 +91,12 @@
 .featured-badge {
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  left: 1rem;
   background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
   color: white;
   padding: 0.4rem 0.8rem;
   border-radius: var(--border-radius);
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   box-shadow: var(--box-shadow);
 }

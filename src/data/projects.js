@@ -4,32 +4,32 @@ import resultadosEncuesta from '../assets/images/resultados-encuesta.PNG';
 import capturaPixelArte from '../assets/images/capturaPixelArte.JPG';
 import tiendaProject from '../assets/images/tiendaProject.PNG';
 import capturaHuerta from '../assets/images/captura-huerta.JPG';
-import english from '../assets/images/english.PNG';
+import segundoEstreno from '../assets/images/segundoEstreno.JPG';
 
 export const projects = [
   {
     id: 1,
-    title: "IronFit WebSite",
-    description: "Entrenamiento Personalizado & Coaching Deportivo",
-    longDescription: "Sitio web completo para un gimnasio con sistema de reservas, planes de entrenamiento personalizados y gestión de clientes. Implementé un backend robusto con Firebase para manejar autenticación y base de datos en tiempo real.",
-    image: capturaIronfit,
-    technologies: ["HTML", "CSS", "JavaScript", "Firebase"],
-    demoUrl: "https://facudee.github.io/ironfit-website/",
-    githubUrl: "https://github.com/FacuDee/ironfit-website",
+    title: "Segundo Estreno",
+    description: "App para la Moda Circular en Olavarría",
+    longDescription: "Plataforma web para comprar y vender ropa usada, promoviendo la reutilización de prendas en un entorno digital accesible.",
+    image: segundoEstreno,
+    technologies: ["NestJS", "React", "Vite", "MySQL", "TypeORM", "JWT"],
+    demoUrl: "https://github.com/FacuDee/segundoEstrenoApp",
+    githubUrl: "https://github.com/FacuDee/segundoEstrenoApp",
     category: "fullstack",
     featured: true
   },
   {
     id: 2,
-    title: "Encuestadora política",
+    title: "Encuestadora",
     description: "Relevamiento de respuestas de usuario con Node.js, Express y SQLite",
     longDescription: "Sistema completo para realizar encuestas políticas con análisis de resultados en tiempo real. Incluye panel administrativo, visualización de datos y exportación de reportes.",
     image: resultadosEncuesta,
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "SQLite"],
     demoUrl: "https://github.com/FacuDee/encuesta-node-sqlite",
     githubUrl: "https://github.com/FacuDee/encuesta-node-sqlite",
-    category: "backend",
-    featured: true
+    category: "fullstack",
+    featured: false
   },
   {
     id: 3,
@@ -69,13 +69,13 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Test English",
-    description: "Trivia sobre inglés. Opciones en arreglos dentro de JS",
-    longDescription: "Aplicación interactiva de trivia en inglés con sistema de puntuación, diferentes niveles de dificultad y retroalimentación inmediata para el aprendizaje.",
-    image: english,
-    technologies: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "https://facudee.github.io/testEnglish/",
-    githubUrl: "https://github.com/FacuDee/testEnglish",
+    title: "IronFit WebSite",
+    description: "Entrenamiento Personalizado & Coaching Deportivo",
+    longDescription: "Sitio web completo para un gimnasio con sistema de reservas, planes de entrenamiento personalizados y gestión de clientes. Implementé un backend robusto con Firebase para manejar autenticación y base de datos en tiempo real.",
+    image: capturaIronfit,
+    technologies: ["HTML", "CSS", "JavaScript", "Firebase"],
+    demoUrl: "https://facudee.github.io/ironfit-website/",
+    githubUrl: "https://github.com/FacuDee/ironfit-website",
     category: "frontend",
     featured: false
   }
@@ -84,6 +84,6 @@ export const projects = [
 export const projectCategories = [
   { id: "all", name: "Todos", count: projects.length },
   { id: "frontend", name: "Frontend", count: projects.filter(p => p.category === "frontend").length },
-  { id: "backend", name: "Backend", count: projects.filter(p => p.category === "backend").length },
+  // { id: "backend", name: "Backend", count: projects.filter(p => p.category === "backend").length },
   { id: "fullstack", name: "Full Stack", count: projects.filter(p => p.category === "fullstack").length }
 ];
