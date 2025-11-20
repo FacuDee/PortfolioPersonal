@@ -1,5 +1,5 @@
 // Import de imagen del perfil
-import profileImage from '../assets/images/FacuDee.jpg';
+import profileImage from '../assets/images/FacuDee.JPG';
 
 export const personalInfo = {
   name: "Facundo Diorio",
