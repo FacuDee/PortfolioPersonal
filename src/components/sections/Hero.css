@@ -28,6 +28,7 @@
 }
 
 .hero-img {
+  margin: 2rem;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -48,7 +49,7 @@
 }
 
 .hero-text h1 {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.2rem, 4vw, 4rem);
   margin-bottom: 1rem;
   font-weight: 700;
   line-height: 1.2;
@@ -60,7 +61,7 @@
 }
 
 .typewriter-container {
-  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-size: clamp(1.2rem, 2vw, 1.75rem);
   margin-bottom: 2rem;
   font-weight: 400;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -70,7 +71,7 @@
 .typewriter {
   color: var(--light-color);
   font-weight: lighter;
-  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-size: clamp(1.2rem, 2vw, 1.75rem);
 }
 
 .cursor {
@@ -91,7 +92,7 @@
 }
 
 .hero-description {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
   margin-bottom: 3rem;
   line-height: 1.8;
 }
@@ -158,18 +159,6 @@
     padding: 6rem 0 3rem;
   }
 
-  .hero-text h1 {
-    font-size: 2.5rem;
-  }
-
-  .typewriter-container {
-    font-size: 1.4rem;
-  }
-
-  .hero-description {
-    font-size: 1.1rem;
-  }
-
   .hero-buttons {
     justify-content: center;
     flex-direction: column;
@@ -183,19 +172,32 @@
 }
 
 @media (max-width: 480px) {
+  .hero-section {
+    padding: 5rem 0 3rem;
+    overflow-x: hidden;
+  }
+
+  .hero-content {
+    padding: 0 0.5rem;
+  }
+
+  .hero-img-container {
+    width: 100%;
+    padding: 0;
+  }
+
   .hero-img {
     height: 250px;
+    margin: 1rem 0;
+    width: 100%;
   }
 
-  .hero-text h1 {
-    font-size: 2rem;
+  .hero-buttons {
+    width: 100%;
   }
 
-  .typewriter-container {
-    font-size: 1.2rem;
-  }
-
-  .hero-description {
-    font-size: 1rem;
+  .hero-buttons .btn {
+    width: 100%;
+    max-width: 100%;
   }
 }
