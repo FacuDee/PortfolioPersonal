@@ -68,6 +68,7 @@ const Projects = () => {
 
         {/* Projects Grid */}
         <motion.div 
+          key={activeCategory}
           className="projects-grid"
           variants={containerVariants}
           initial="hidden"
