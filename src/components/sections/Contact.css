@@ -4,14 +4,14 @@
 
 .contact-content {
   display: grid;
-  grid-template-columns: 1fr 400px;
-  gap: 4rem;
+  grid-template-columns: 1fr 360px;
+  gap: 3rem;
   align-items: start;
 }
 
 .contact-form-container {
   background-color: white;
-  padding: 2.5rem;
+  padding: 2rem;
   border-radius: var(--border-radius-lg);
   box-shadow: var(--box-shadow);
 }
@@ -23,7 +23,7 @@
 
 .contact-info-card {
   background-color: white;
-  padding: 2.5rem;
+  padding: 2rem;
   border-radius: var(--border-radius-lg);
   box-shadow: var(--box-shadow);
 }
@@ -48,7 +48,6 @@
 
 .contact-methods li {
   display: flex;
-  align-items: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
   padding: 1rem;
