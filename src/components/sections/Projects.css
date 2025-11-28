@@ -28,6 +28,11 @@
   transform: translateY(-2px);
 }
 
+.filter-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--primary-color-light);
+}
+
 .filter-btn.active {
   background-color: var(--primary-color);
   color: white;

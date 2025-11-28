@@ -13,11 +13,11 @@ export const projects = [
   {
     id: 1,
     title: "Segundo Estreno",
-    description: "App para la Moda Circular en Olavarría",
+    description: "App - Moda Circular en Olavarría | Compra y Venta de ropa usada",
     longDescription: "Plataforma web para comprar y vender ropa usada, promoviendo la reutilización de prendas en un entorno digital accesible.",
     image: segundoEstreno,
     technologies: ["NestJS", "React", "Vite", "MySQL", "TypeORM", "JWT"],
-    demoUrl: "https://github.com/FacuDee/segundoEstrenoApp",
+    demoUrl: "https://segundo-estreno.web.app/",
     githubUrl: "https://github.com/FacuDee/segundoEstrenoApp",
     category: "fullstack",
     featured: true
