@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Download, Mail, ChevronDown } from 'lucide-react';
+import { ExternalLink, Mail, ChevronDown } from 'lucide-react';
 import { useTypewriter } from '../../hooks/useTypewriter';
 import { personalInfo } from '../../data/personalInfo';
 import './Hero.css';
@@ -62,13 +62,14 @@ const Hero = () => {
             <div className="hero-buttons">
               <motion.a 
                 href={personalInfo.cv} 
-                download 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <Download size={20} />
-                Descargar CV
+                <ExternalLink size={20} />
+                Ver CV
               </motion.a>
               
               <motion.button 

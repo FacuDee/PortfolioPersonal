@@ -12,7 +12,7 @@ export const personalInfo = {
   birthDate: "17-mayo-1989",
   education: "Comunicación Social",
   profileImage: profileImage,
-  cv: "/CV-Facundo-Diorio.pdf",
+  cv: "https://cv-facundo-diorio.vercel.app/",
   
   bio: "Soluciones digitales con código limpio y diseño eficiente",
 
