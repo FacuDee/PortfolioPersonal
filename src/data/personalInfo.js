@@ -1,5 +1,5 @@
 // Import de imagen del perfil
-import profileImage from '../assets/images/FacuDee.JPG';
+import profileImage from '../assets/images/foto-diploma-byn2.jpg';
 
 export const personalInfo = {
   name: "Facundo Diorio",
@@ -12,7 +12,7 @@ export const personalInfo = {
   birthDate: "17-mayo-1989",
   education: "Comunicación Social",
   profileImage: profileImage,
-  cv: "https://cv-facundo-diorio.vercel.app/",
+  cv: "/CV_Facundo_Diorio.pdf",
   
   bio: "Soluciones digitales con código limpio y diseño eficiente",
 
